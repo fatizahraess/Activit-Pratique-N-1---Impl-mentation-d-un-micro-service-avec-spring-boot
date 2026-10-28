@@ -5,6 +5,7 @@ import net.essadiki.bankaccountservice.repositories.BankAccountRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@RestController
 
 public class AccountRestController {
     private BankAccountRepository bankAccountRepository;
