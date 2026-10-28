@@ -21,10 +21,9 @@ import java.util.Date;
 @Builder
 public class BankAccount {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private Date createdAt;
-    private double balance;
+    private Double balance;
     private String currency;
     @Enumerated(EnumType.STRING)
     private AccountType type;
